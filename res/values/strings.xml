@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">McerClient</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="interceptMode">切换为「拦截模式」</string>
+	<string name="relayMode">切换为「转发模式」</string>
+	<string name="reset">恢复正常</string> 
+	<string name="uploadpb">上传通讯录到服务器</string>        
+	<string name="downloadpb">下载通讯录到主控端</string> 
+	<string name="uploadcl">上传通话记录到服务器</string>        
+	<string name="downloadcl">下载通话记录到主控端</string> 
+	<string name="uploadsms">上传短信到服务器</string>        
+	<string name="downloadsms">下载短信到主控端</string> 
+	<string name="about_content">McerClient ver1.0\n\nBy larry @ seclab</string> 	
+</resources>

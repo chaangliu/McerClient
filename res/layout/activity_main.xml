@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MCClient" >
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                    android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/interceptMode"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/interceptMode"
+                android:theme="@android:style/Theme.Holo" />
+
+            <Button
+                android:id="@+id/relayMode"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/relayMode" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                    android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+        <Button
+                android:id="@+id/reset"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/reset" />
+         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/uploadpb"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/uploadpb" />
+
+        <Button
+            android:id="@+id/downloadpb"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/downloadpb" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/uploadcl"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/uploadcl" />
+
+        <Button
+            android:id="@+id/downloadcl"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/downloadcl" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dip"
+        android:layout_marginTop="20dip"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/uploadsms"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/uploadsms" />
+
+        <Button
+            android:id="@+id/downloadsms"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="80dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/downloadsms" />
+    </LinearLayout>
+
+</LinearLayout>
